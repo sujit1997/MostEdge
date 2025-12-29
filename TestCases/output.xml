@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2025-12-29T15:02:13.518545" rpa="false" schemaversion="5">
+<suite id="s1" name="TC 001" source="C:\Users\sujit\PycharmProjects\MostEdge\TestCases\TC_001.robot">
+<test id="s1-t1" name="Open MostEdge Homepage" line="9">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-12-29T15:02:13.882419" level="INFO">Opening browser 'chrome' to base url 'https://www.mostedge.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-12-29T15:02:13.881856" elapsed="1.496996"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-12-29T15:02:15.382650" elapsed="2.169619"/>
+</kw>
+<kw name="Wait Until Page Contains Element" owner="SeleniumLibrary">
+<arg>//body</arg>
+<arg>20s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" start="2025-12-29T15:02:17.553057" elapsed="0.017698"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-12-29T15:02:17.571351" elapsed="2.302256"/>
+</kw>
+<status status="PASS" start="2025-12-29T15:02:13.879455" elapsed="5.994889"/>
+</test>
+<status status="PASS" start="2025-12-29T15:02:13.522370" elapsed="6.353279"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="TC 001" id="s1" pass="1" fail="0" skip="0">TC 001</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
